@@ -63,7 +63,7 @@ for SL in fr ru zh de; do
     --task_name $TASK \
     --src_language $SL \
     --tgt_language $TL \
-    --pool_type cls \
+    --pool_type mean \
     --max_seq_length $MAXL \
     --data_dir $DATA_DIR \
     --output_dir $OUT \
